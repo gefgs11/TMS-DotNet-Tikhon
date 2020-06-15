@@ -12,7 +12,6 @@ namespace Homework1
             if (str == "mon" || str == "monday")
             {
                 Console.WriteLine("1");
-
             }
             else if (str == "tu" || str == "tuesday")
             {
@@ -29,7 +28,7 @@ namespace Homework1
                 Console.WriteLine("4");
 
             }
-            else if (str == "fri" || str == "Friday")
+            else if (str == "fri" || str == "friday")
             {
                 Console.WriteLine("5");
 
@@ -42,12 +41,11 @@ namespace Homework1
             else if (str == "sunday" || str == "sunday")
             {
                 Console.WriteLine("7");
-
             }
+
             else
             {
                 Console.WriteLine("Null");
-
             }
 
         }

@@ -7,38 +7,38 @@ namespace Homework1
 
         static void Main(string[] args)
         {
-            Console.WriteLine("vvedite den");
-            string str = Console.ReadLine();
-            if (str == "mon" || str == "monday")
+            Console.WriteLine("enter day");
+            string day = Console.ReadLine();
+            if (day == "mon" || day == "monday")
             {
                 Console.WriteLine("1");
             }
-            else if (str == "tu" || str == "tuesday")
+            else if (day == "tu" || day == "tuesday")
             {
                 Console.WriteLine("2");
 
             }
-            else if (str == "wedn" || str == "wednesday")
+            else if (day == "wedn" || day == "wednesday")
             {
                 Console.WriteLine("3");
 
             }
-            else if (str == "thu" || str == "thursday")
+            else if (day == "thu" || day == "thursday")
             {
                 Console.WriteLine("4");
 
             }
-            else if (str == "fri" || str == "friday")
+            else if (day == "fri" || day == "friday")
             {
                 Console.WriteLine("5");
 
             }
-            else if (str == "satu" || str == "saturday")
+            else if (day == "satu" || day == "saturday")
             {
                 Console.WriteLine("6");
 
             }
-            else if (str == "sunday" || str == "sunday")
+            else if (day == "sunday" || day == "sunday")
             {
                 Console.WriteLine("7");
             }
@@ -47,6 +47,7 @@ namespace Homework1
             {
                 Console.WriteLine("Null");
             }
+            Console.ReadKey();
 
         }
 

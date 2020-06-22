@@ -8,6 +8,7 @@ namespace ConsoleApp1
         {
 
             Console.WriteLine("enter name of day");
+
             string day = Console.ReadLine();
             if (day == "mon" || day == "monday")
             {
